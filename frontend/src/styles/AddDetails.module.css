@@ -1,0 +1,129 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../assets/adduser.jpg');
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .navbar {
+    background: rgb(1, 24, 115);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navLinks button {
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .navLinks button:hover {
+    text-decoration: underline;
+  }
+  
+  .mainContent {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background: #2c6edf78;
+    padding: 40px 0;
+    flex: 1;
+  }
+  
+  .formSection {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .formBox {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .form textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .form label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .form input[type="file"] {
+    padding: 6px;
+    margin: 10px 0;
+  }
+  
+  .form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .form button:hover {
+    background-color: #45a049;
+  }
+  
+  .imageSection {
+    display: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .mainContent {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .formSection {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  

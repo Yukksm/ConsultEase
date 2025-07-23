@@ -1,0 +1,127 @@
+.background {
+    background-image: url('../assets/dash.jpg'); /* replace with your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logoutBtn {
+    padding: 6px 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container {
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .greeting,
+  .email,
+  .heading {
+    margin-bottom: 10px;
+  }
+  
+  .tableWrapper {
+    overflow-x: auto;
+  }
+  
+  .projectTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+  }
+  
+  .projectTable th,
+  .projectTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .projectTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .editBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteBtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggleBtn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .projectForm {
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .projectForm input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitBtn {
+    padding: 8px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
