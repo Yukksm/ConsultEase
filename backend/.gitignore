@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Environment and secret files
+.env
+
+credentials_drive.json
+google-services.json
+consultease-11e236c725c7.json
+google-services.json
+package-lock.json
+package.json
+
+
+#uploads
+uploads/
